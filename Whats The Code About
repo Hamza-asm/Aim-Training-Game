@@ -1,0 +1,12 @@
+Aim Training Game
+A simple aim training game built using HTML, CSS, and JavaScript (jQuery). Practice your aim by clicking on randomly appearing targets while tracking your score. The game includes different difficulty levels and a countdown timer.
+
+Features
+Difficulty Levels:
+Easy: Large game area and slower target appearance.
+Normal: Default game area and moderate speed.
+Hard: Small game area and fast-moving targets.
+Score Tracking: Keeps count of how many targets you've clicked.
+Timer Countdown: The game lasts 50 seconds, and the final score is displayed when the time is up.
+Start/Reset Buttons: Begin a new game or reset the current one anytime.
+Button Indication: The selected difficulty is highlighted for easy identification.
