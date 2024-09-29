@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Training Game</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+</head>
+<body>
+  <h1 class="heading">Aim Training Game</h1>
+    <div class="game-container">
+        <div class="target" id="target"></div>
+    </div>
+    <p id="score">Score: 0</p>
+    <p id="timer">Time left: 50s</p>
+    <h4 class="bothead">Select The Difficulty Before Starting The Game</h4>
+    
+    <!-- Difficulty Buttons -->
+    <div class="btns">
+        <button class="button easy">Easy</button>
+        <button class="button normal">Normal</button>
+        <button class="button hard">Hard</button>
+    </div>
+
+    <!-- Start and Reset Buttons -->
+    <div class="controls">
+        <button class="button start">Start</button>
+        <button class="button reset">Reset</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
+
